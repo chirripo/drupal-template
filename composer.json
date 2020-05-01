@@ -37,7 +37,7 @@
         "post-create-project-cmd": [
             "cp vendor/chirripo/chirripo/env.example env.example"
         ]
-    }
+    },
     "extra": {
         "drupal-scaffold": {
             "locations": {

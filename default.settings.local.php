@@ -147,5 +147,6 @@ $databases['default']['default'] = array(
  * Trusted host configuration.
  */
 $settings["trusted_host_patterns"] = array(
-  '^localhost$',
+  '^localhost',
+  '^127.0.0.1',
 );

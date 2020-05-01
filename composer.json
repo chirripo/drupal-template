@@ -35,7 +35,11 @@
     },
     "scripts": {
         "post-create-project-cmd": [
-            "cp vendor/chirripo/chirripo/env.example env.example"
+            "cp vendor/chirripo/chirripo/env.example env.example",
+            "cp vendor/chirripo/chirripo/env.example .env",
+            "cp web/sites/default/default.settings.php web/sites/default/settings.php",
+            "cp default.settings.local.php web/sites/defaults/settings.local.php",
+            "echo 'Update .env files as required and then ./bin/chirripo start'"
         ]
     },
     "extra": {

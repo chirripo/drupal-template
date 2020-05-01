@@ -33,6 +33,11 @@
         "sort-packages": true,
         "bin-dir": "bin"
     },
+    "scripts": {
+        "post-create-project-cmd": [
+            "cp vendor/chirripo/chirripo/env.example env.example"
+        ]
+    }
     "extra": {
         "drupal-scaffold": {
             "locations": {

@@ -39,6 +39,7 @@
             "cp vendor/chirripo/chirripo/env.example .env",
             "cp web/sites/default/default.settings.php web/sites/default/settings.php",
             "cp default.settings.local.php web/sites/default/settings.local.php",
+            "mv default.settings.local.php web/sites/default/default.settings.local.php",
             "echo 'Update .env files as required and then ./bin/chirripo start'"
         ]
     },

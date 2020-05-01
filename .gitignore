@@ -1,5 +1,6 @@
 vendor
 bin
+.env
 
 # Ignore configuration files that may contain sensitive information.
 local.settings.php

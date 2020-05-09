@@ -4,8 +4,7 @@
 
 /**
  * @file
- * Local development override configuration feature. This file is intended for
- * use under EvolvingWeb's docker deployments. If deployed elsewhere ignore this.
+ * Local development override configuration feature. 
  *
  * To activate this feature, copy and rename it such that its path plus
  * filename is 'sites/default/settings.local.php'. Then, go to the bottom of
